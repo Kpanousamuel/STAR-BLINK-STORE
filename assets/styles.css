@@ -125,6 +125,13 @@ button, input, textarea, select { font: inherit; }
   transition: 0.2s ease;
   cursor: pointer;
 }
+.header-actions .btn {
+  width: auto;
+  min-width: 0;
+  white-space: nowrap;
+  padding: 0.72rem 1rem;
+  font-size: 0.82rem;
+}
 .btn-primary {
   background: linear-gradient(135deg, var(--primary), var(--primary-strong));
   color: #fff;
