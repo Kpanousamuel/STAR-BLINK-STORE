@@ -837,9 +837,11 @@ h1 {
   }
   .header-inner {
     min-height: 72px;
+    gap: 10px;
   }
   .brand-logo {
-    max-width: 104px;
+    max-width: 88px;
+    height: auto;
   }
   .icon-btn {
     width: 36px;
