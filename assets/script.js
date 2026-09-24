@@ -14,6 +14,10 @@ if (toggleButton && nav) {
   toggleButton.addEventListener('click', () => {
     nav.classList.toggle('open');
   });
+
+  nav.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => nav.classList.remove('open'));
+  });
 }
 
 const yearNode = document.getElementById('year');
